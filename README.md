@@ -20,3 +20,7 @@
    2. `.vscode/settings.json` の実行
    3. `editor.formatOnSave` を有効にする
 7. poetry add flask
+
+## ローカルサーバーの立ち上げ
+
+`poetry run python app.py`

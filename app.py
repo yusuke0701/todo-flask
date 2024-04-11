@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 app.config.from_object("config")
@@ -6,12 +6,7 @@ app.config.from_object("config")
 
 @app.route("/")
 def hello_world():
-    return "Hello World!"
-
-
-@app.route("/ja")
-def hello_world_ja():
-    return "こんにちは 世界！"
+    return render_template("index.html")
 
 
 if __name__ == "__main__":

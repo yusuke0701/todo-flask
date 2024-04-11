@@ -19,3 +19,4 @@
    1. `mkdir .vscode` の実行
    2. `.vscode/settings.json` の実行
    3. `editor.formatOnSave` を有効にする
+7. poetry add flask

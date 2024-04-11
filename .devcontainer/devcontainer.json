@@ -10,7 +10,10 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-vscode-remote.remote-containers"
+				"ms-vscode-remote.remote-containers",
+				"ms-python.python",
+				"ms-python.black-formatter",
+				"yzhang.markdown-all-in-one"
 			]
 		}
 	}
